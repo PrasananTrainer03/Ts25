@@ -103,3 +103,22 @@ _______________
 1) How to download files from git repository 
 
 git clone https://github.com/PrasananTrainer03/Ts25
+
+2) How to add the files to staging area 
+
+git add .
+
+3) How to add files to local repository 
+
+git commit -m "message"
+
+4) How to push the files to remote 
+
+git push origin branch_name
+
+5) How to see the stagaes in git 
+
+git status
+
+
+
