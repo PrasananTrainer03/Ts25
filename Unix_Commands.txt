@@ -1,0 +1,117 @@
+
+
+1) pwd -> Print Working Directory
+
+2) cd -> Used to return to default directory 
+
+3) mkdir -> Used to make a new directory 
+
+mkdir directory_name
+
+4) cd directory_name : Used to change to particular directory 
+
+5) cat > file_name : used to create a file
+
+To Save the file press <ctrl+d> 
+
+6) cat file_name : Used to display the contents of the file.
+
+7) mv old_name new_name : Used to rename the given file. 
+
+8) ls : Displays the list of files
+
+9) ls -l : Displays long listing of files
+
+10) touch fileName : Used to create an empty file
+
+11) rm file_name : Used to remove the file 
+
+12) rmdir directory_name : Used to remove the directory.
+
+13) wc : Used to count no.of words/chars/lines of a given file. 
+
+	wc -l file_name : Displays no.of lines
+
+	wc -c file_name : Displays no.of characters
+
+	wc -w file_name : Displays no.of words
+
+14) grep (Globall Search for Regular Expression and PrintOut) 
+
+	Used to search for particular word in the given file. 
+
+grep "aditya" info.txt
+
+grep -c "aditya" info.txt : Counts no.of times the word exists in the current file.
+
+grep -n "aditya" info.txt 
+
+displays line number where the word exists
+
+grep -v "aditya" info.txt
+
+Displays lines in which the word does not exists (unmatched patterns) 
+
+head -5 fileName : Displays first 5 lines of the given file
+
+tail -5 fileName : Displays last 5 lines of the given fil
+
+
+17) sort : used to sort the given file data in ascending or descending order. 
+
+	sort filename : Sorts the data w.r.t. Ascending order. 
+
+        sort -r filename : Sorts the data w.r.t. Descending order
+
+18) How to redirect output or take file as an input 
+
+< -> for input purpose
+
+> -> for output purpose 
+
+
+sort < names.txt > result1.txt 
+
+sort -r < names.txt > result2.txt
+
+| operator used to redirect result of one common to another command. 
+
+
+cat info.txt | wc -c
+cat info.txt | wc -l
+cat info.txt | wc -w 
+
+
+_____________________________________________________________________________________________
+
+vi editor : 
+___________
+
+Used to create a file/edit and works like notepad. 
+
+To move to insert mode press i
+
+to save and quit, then we need 
+
+esc + :wq
+
+esc+A Append mode, cursor placed at end of line
+
+esc+x  used to delete the current character
+
+esc+dw used to delete a word
+
+esc+dd used to delete a line
+
+esc+u Used to undo 
+____________________________________________________________________________________________
+
+GIT 
+
+
+
+
+
+
+
+
