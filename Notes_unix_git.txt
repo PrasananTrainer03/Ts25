@@ -1,0 +1,105 @@
+Operating System : 
+__________________
+
+An operating system is a software package that which acts as an interface between user and application programs. 
+
+Types of Operating System : 
+_____________________________
+
+There are 2 types of operating systems known as
+
+1) Single User
+
+	DOS
+
+	Windows
+
+2) Multi User 
+
+	UNIX 
+
+Unix operaring system contains 2 major separatable parts as
+
+	-> KERNAL
+
+		Kernal is heart w.r.t. OS as it takes care of
+
+	   -> Process Management
+
+	   -> Memory Managment
+
+	   -> Resource Management 
+
+	-> Shell
+
+	  Acts as an interface between the user and UNIX OS. 
+
+
+
+	-> System Programs 
+
+
+GIT
+_____
+
+
+Git is a central repository, that which allows multiple people to work on same project simultaneously.
+
+Here the concept of VCS (Version Control System) 
+
+VCS is a system, that which records changes t a file or set of files. 
+
+GIt is a free open source distributed version control system designed to handle everything from small to large projects with speed and efficiency. 
+
+Every Git working directory contains a full-fledged repository with complete history and full revision tractking capabilities. 
+
+Goals of Git :
+______________
+
+	-> Speed
+
+	-> Support for non-linear development
+
+	-> Fully Distributed
+
+	-> Able to handle large projects efficiently
+
+There are 3 main stages of GIT
+
+	-> Working Directory : Single checkous of one version of the project. 
+
+	-> Staging Area : It is a simple file, generally present in your git director, that stores 
+		information about the next commit. 
+
+	-> Git Directory : Stores the metadata and object database for the project (whole cloing the repository) 
+
+Git Life Cycle :
+________________
+
+     Working Directory : This is the default git repository of the particular account. 
+
+	to send the files to staging area 
+
+	git add .
+
+     Staging Area 
+
+	to Send files to local repository
+
+	  git commit -m "message"
+
+     Local Repository
+
+	To send the files to remote repository 
+
+	git push origin branch_name 
+
+     Remote Repository 
+
+Git Practice : 
+_______________
+
+
+1) How to download files from git repository 
+
+git clone https://github.com/PrasananTrainer03/Ts25
